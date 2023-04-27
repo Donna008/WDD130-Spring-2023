@@ -3,7 +3,8 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 /*@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -13,8 +14,8 @@ Fonts are separated by a & */
   --accent2-color: #49586B;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: /*"IM Fell French Canon";*/ "PT Serif";
-  --paragraph-font: /*Lato, Helvetica, sans-serif;*/"PT Serif";
+  --heading-font: /*"IM Fell French Canon";*/ "Pacifico";
+  --paragraph-font: /*Lato, Helvetica, sans-serif;*/"Caveat";
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #99564F ;  /* headlines on a white background */ 
@@ -35,7 +36,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 25px; 
   text-align: center;
 }
 img {
@@ -68,6 +69,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  
 }
 .colors {
   width: 100%;
