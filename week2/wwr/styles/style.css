@@ -1,4 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+:root{
+    --heading-font:font-family: 'Great Vibes', cursive;
+    --paragraph-font: cursive;font-family: 'Sacramento', cursive;
+}
+
 #content{
     max-width:  1600px;
     margin: 0 auto;
@@ -15,6 +24,7 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top:10px;
 }
 nav a:hover {
     background-color: black;
@@ -28,15 +38,21 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-    
+    padding:35px;
 } 
-#hero-msg h1, #hero-msg h4{
+#logo_link {
+    padding-top:5px;
+}
+
+#hero-msg h1, 
+#hero-msg h4{
     text-align: center;
 }
 .button-box{
     text-align: center;
 }
-main section{text-align: center;
+main section{
+    text-align: center;
 
 }
 
@@ -52,6 +68,13 @@ footer p a:hover {
 }
 body {
     background-color: #fcfbfb; 
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -63,6 +86,10 @@ header {
     background-color: black;
     color: #d9c2a3;
     text-decoration: none;
+    font-size :18px;
+    padding:15px 30px;
+    margin-top:50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:rgba(20,30,13, .7);
@@ -71,10 +98,15 @@ header {
 }
 .msg{
     background-color:rgba(20,30,13, .7);
+     line-height: 1.5em;
+     padding:35px;
 }
 .home-title{
     background-color: black;
     color: #d9c2a3;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top:10px;
 }
 h4{
     background-color: black;
@@ -89,12 +121,17 @@ h4{
 .msg p{
     background-color: black;
     color: #d9c2a3;
+    font-size: .8em;
+    padding-bottom: 15px;
+
 
 }
 
 footer{
     background-color: black;
     color: #d9c2a3;
+    padding:25px 50px;
+    margin-top: 200px;
 }
 footer a:hover{
     background-color: black;
@@ -108,4 +145,15 @@ footer a{
     
     text-decoration: none;
 }
-
+footer .social img{
+    padding-top:15px;
+}
+.rivers-card .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10pxsolid #657C8A;
+}
+main section img {
+    box-sizing: border-box;
+}
