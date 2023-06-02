@@ -183,7 +183,7 @@ nav {
 }
 .home-grid{
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(13 1fr);
 }
 .mountains{
   width:100%;
@@ -203,10 +203,10 @@ nav {
   grid-column: 8/10;
   grid-row: 2/3;
 }
-/*.others-card{
+.others-card{
   grid-column: 11/13;
   grid-row: 2/3;
-}if i add this picture that doesn't fit the wirefram*/
+}
 .card-img:hover{
   opacity:0.6;
   transform:scale(1.1);
