@@ -1,0 +1,65 @@
+.body{
+   
+    align-self: center;
+    background-color: black;
+    max-width: 250px;
+}
+.card .main{border-radius: 15px;
+    align-self: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+p{
+   text-align: center;
+   background: white;
+   padding:0;
+   width:80%;
+   height:100px;
+   overflow:hidden;
+   color: black;
+   line-height: 1.9em;
+   
+}
+img{
+    align-items: center;
+
+}
+.main p{
+    color:black;
+    font-size: 23px;
+
+}
+.bottom{
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    font-size: 23px;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+.bottom >div{
+    align-content: center;
+}
+.bottom sup{
+
+}
+.middle{
+    align-content: center;
+    grid-row: 22px 23px;
+    border: solid 1px grey;
+
+}
+.card{
+    align-items: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+.card p{
+    overflow: hidden;
+    height: 100%;
+    width:200px;
+    border:1px solid black;
+    background-color: white;
+}
